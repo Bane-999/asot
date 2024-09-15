@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+#background {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: linear-gradient(353deg, rgb(2 0 36 / 84%) 0%, rgb(15 95 121 / 48%) 48%, rgb(44 118 172 / 34%) 100%);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+#episode {
+  margin: 17px;
+  height: 60px;
+  background-color: #00000047;
+  border-radius: 15px;
+  align-content: center;
+  box-shadow: 4px 4px 15px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#name {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 700;
+  margin-left: 25px;
+  color: #ffffff;
+}
+
+#date {
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+#icons {
+  margin-right: 23px;
+  display: flex;
+  gap: 27px;
+}
+
+#checkbox {
+  height: 25px;
+  width: 25px;
+}
+
+#download {
+  font-size: 8px;
+  margin-top: 4px;
+}
